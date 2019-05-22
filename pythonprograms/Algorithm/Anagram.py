@@ -1,5 +1,5 @@
 #Program to find whether 2 strings are anagram or not
-from com.Bridgelabz.Algorithm.util import Anagram
+from Bridgelabz.pythonprograms.Algorithm.util import Anagram
 
 # take 2 strings from user
 str1=input("Enter the First string\n")

@@ -1,6 +1,6 @@
 # Program for insertion Sort integer
 from array import *
-from com.Bridgelabz.Algorithm.util import insertionsortinteger
+from Bridgelabz.pythonprograms.Algorithm.util import insertionsortinteger
 # Take input from user
 n=int(input("Enter the no.of Elements\n"))
 arr = array('i',[])

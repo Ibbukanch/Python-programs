@@ -1,5 +1,5 @@
 # Program to Convert temperature to Celsius or Fahrenheit
-from com.Bridgelabz.Algorithm.util import tempconversion
+from Bridgelabz.pythonprograms.Algorithm.util import tempconversion
 # take temperature value from user
 print("Press 1 to Enter Temperature in Celsius:")
 print("Press 2 to Enter Temperature in Fahrenheit:")

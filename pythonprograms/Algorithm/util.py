@@ -66,6 +66,25 @@ def primenumber():
             else:
                 primearr.append(num)
     return primearr
+#---------------------x------------------------------------------------------------------#
 
+#Function to check whether a year is a leap year or not
+
+def leapyear(year):
+    # The if statement checks if the year is a multiple of 4 but isn’t a multiple of 100
+    # or if it is a multiple of 400 (not every year that is a multiple of 4 is a leap year)
+    if year%4==0 and year%100!=0 or year%400==0:
+        return True
+    else:
+        return False
+#----------------------x-----------------------------------------------#
+
+#Function to find factorial of a number
+
+def factorial(n):
+    fact = 1
+    for c in range(1,n+1):
+        fact = fact * c
+    return fact
 
 
