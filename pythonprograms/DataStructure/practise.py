@@ -1,3 +1,8 @@
+"""
+Program to Read the Paragraph and if Vowels Encounter then push it into the stack
+and in stack2 update the counter of each vowels encounters
+"""
+
 class Stacks:
     def __init__(self):
         self.list = []
@@ -29,25 +34,40 @@ def update(x):
         stack2.push(list2[i])
 
 if __name__ == "__main__":
+
+    # This is the Main method
+    #Creating objects of Class Stack
+
     stack1 = Stacks()
     stack2 = Stacks()
+
+    # Reading the paragraph
+
     paragraph = 'My name is Ibrahim'
 
 
-    vowels = 'aeiou'
+    vowels = 'aeiou'  # Reading Vowels
+    # Pushing vowels into stack1
     for i in vowels:
         stack1.push(i)
+    #  Initially Pushing 0 to stack2
     for i in range(5):
         stack2.push(0)
 
     for i in paragraph.lower():
         if i == 'a' or i == 'e' or i == 'i' or i == 'o' or i == 'u':
-            update(i)
+            update(i)    # If vowel encounter then update the counter into stack2
+            print()
+            stack1.display()
+            print()
+            stack2.display()
+
         else:
             continue
 
+# Display both Stacks
 
-
+    print()
     stack1.display()
     print()
     stack2.display()

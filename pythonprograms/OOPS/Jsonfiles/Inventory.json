@@ -1,0 +1,30 @@
+{
+  "rice": [
+    {
+      "name": "Basmati",
+      "weight": "10",
+      "price": "1000"
+    },
+
+    {
+      "name": "Colam",
+      "weight": "10",
+      "price": "840"
+    }
+    ],
+  "pulses": [
+    {
+      "name": "Mung dal",
+      "weight": "10",
+      "price": "800"
+    }
+  ],
+  "Wheats": [
+    {
+      "name": "Brown",
+      "weight":"10",
+      "price": "550"
+    }
+  ]
+
+}
