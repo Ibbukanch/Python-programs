@@ -44,7 +44,7 @@ class Deckofcards:
                 self.player[count][i].append(temp[j])
                 count = count + 1
 
-    # Display Function which will display all the cards of each player
+    # Display Function,which will display all the cards of each player
 
     def display(self):
         for i in range(len(self.player)):

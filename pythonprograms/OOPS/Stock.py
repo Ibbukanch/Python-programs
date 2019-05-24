@@ -1,5 +1,5 @@
 """
-Overview : Stock Management of Companys
+Overview : Stock Management of Companies
 purpose: Json Concept,reading json data and print
 class name : Stock
 date : 23/05/2019
@@ -8,6 +8,7 @@ import json
 class Stock:
     def __init__(self):
         self.list = []
+
 
     def readingstocks(self):
 
@@ -18,6 +19,8 @@ class Stock:
 
         for i in data:
             self.list.append(i)
+
+
 
     def newdata(self):
 
@@ -51,6 +54,14 @@ class Stock:
         print("Company Name\t\tNo of shares\t\tPer Share Price")
         for i in self.list:
             print(i["name"],"\t\t\t\t",i["no.of share"],"\t\t\t\t",i["price"])
+
+        totals = 0
+        for i in self.list:
+            total = 0
+            totals += int(i["price"])
+            total += int(i["price"])
+            print(i["name"],":",total)
+        print("Total Price Value of the Stocks:",totals)
 
 # MAIN METHOD
 
