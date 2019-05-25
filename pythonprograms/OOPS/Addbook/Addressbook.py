@@ -29,7 +29,7 @@ class AddressBook:
                     print("You have selected wrong choice.")
                     continue
                 choice = {1: "create", 2: "open", 3: "save", 4: "save_as",
-                          5: "add_person", 6:"Delete_Person"}
+                          5: "add_person", 6:"delete_person"}
                 fun = getattr(self.addbook, choice[entered])
                 fun()
         except Exception as e:

@@ -1,0 +1,26 @@
+[
+  {
+    "data": {
+      "no.of share": "789",
+      "price": "564",
+      "balance": "1000"
+    },
+    "Customer Name": "IBRAHIM"
+  },
+  {
+    "data": {
+      "no.of share": "312",
+      "price": "1200",
+      "balance": "50000"
+    },
+    "Customer Name": "RAHUL"
+  },
+  {
+    "data": {
+      "no.of share": "556",
+      "price": "1300",
+      "balance": "100000"
+    },
+    "Customer Name": "BOSS"
+  }
+]

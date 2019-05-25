@@ -1,0 +1,26 @@
+[
+  {
+    "data": {
+      "no.of share": "123",
+      "price": "789",
+      "balance": "2000"
+    },
+    "Company Name": "GOOGLE"
+  },
+  {
+    "data": {
+      "no.of share": "250",
+      "price": "950",
+      "balance": "36000"
+    },
+    "Company Name": "YATRA"
+  },
+  {
+    "data": {
+      "no.of share": "700",
+      "price": "1000",
+      "balance": "42000"
+    },
+    "Company Name": "MICROSOFT"
+  }
+]

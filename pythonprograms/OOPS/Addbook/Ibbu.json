@@ -1,1 +1,13 @@
-[{"data": {"address": "KURLA", "city": "MUMBAI", "state": "MAAHRASHTRA", "zip_code": "4001", "phone_number": "809"}, "first_name": "IBRAHIM", "last_name": "KANCHWALA"}, {"data": {"address": "KURLA", "city": "MUMBAI", "state": "MAHARASHTRA", "zip_code": "400", "phone_number": "8655"}, "first_name": "HUSAIN", "last_name": "NAL"}]
+[
+  {
+    "data": {
+      "address": "ASD",
+      "city": "ASDAD",
+      "state": "ASDAD",
+      "zip_code": "431001",
+      "phone_number": "55565"
+    },
+    "first_name": "KHAN",
+    "last_name": "ASDA"
+  }
+]

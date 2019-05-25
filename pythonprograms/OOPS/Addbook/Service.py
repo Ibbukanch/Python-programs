@@ -43,7 +43,7 @@ class Service:
         try:
 
             with open(self.file_name + ".json", 'w') as data:
-                json.dump(self.person_data, data)
+                json.dump(self.person_data, data,indent=2)
                 data.close()
         except Exception:
             print("You have not yet open any file. ")
@@ -107,22 +107,23 @@ class Service:
                 self.person_data.append(new_person)
         print(self.person_data)
 
-    def Delete_Person(self):
+    def delete_person(self):
 
         #Deletes the Peron from the List
         try:
-            firstname = input("Enter the First Name you want to delete:").strip().upper()
-            lastname = input("Enter the Last Name you want to delete:").strip().upper()
-            if not firstname.isalpha() or not lastname.isalpha():
+            first_name = input("Enter the First Name you want to delete:").strip().upper()
+            last_name = input("Enter the Last Name you want to delete:").strip().upper()
+            if not first_name.isalpha() or not last_name.isalpha():
                 raise ValueError
         except ValueError:
             print("Name should contain only alphabets")
-            self.Delete_Person()
+            self.delete_person()
 
         for i in range(len(self.person_data)):
-            if self.person_data[i]["first_name"] == firstname and self.person_data[i]["last_name"] == lastname:
+            if self.person_data[i]["first_name"] == first_name and self.person_data[i]["last_name"] == last_name:
                 self.person_data.remove(self.person_data[i])
                 print("Data Deleted Successfully")
+                break
 
 
 
