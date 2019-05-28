@@ -19,7 +19,9 @@ def collect(n):                       # Function to Collect the distinct Coupons
             distinct=distinct+1
             arr[value]=1         # Adding the value in Array if random number is distinct
     return count
-x = int(input("Enter distinct coupon Number\n"))
-count = collect(x)
-# printing the count of random numbers generated
-print("\nRandom coupons generated="+str(count))
+
+if __name__ == "__main__":
+    x = int(input("Enter distinct coupon Number\n"))
+    count = collect(x)
+    # printing the count of random numbers generated
+    print("\nRandom coupons generated="+str(count))

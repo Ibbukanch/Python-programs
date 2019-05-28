@@ -123,6 +123,7 @@ class Service:
             if self.person_data[i]["first_name"] == first_name and self.person_data[i]["last_name"] == last_name:
                 self.person_data.remove(self.person_data[i])
                 print("Data Deleted Successfully")
+                return True
                 break
 
 

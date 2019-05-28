@@ -1,4 +1,4 @@
-from com.Bridgelabz.Functional.Factors import factors
+from Bridgelabz.pythonprograms.Functional.Factors import factors
 import unittest
 
 

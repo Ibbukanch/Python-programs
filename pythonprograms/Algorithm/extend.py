@@ -9,16 +9,17 @@ def palindrome(palin):
         Reverse = (Reverse * 10) + Reminder
         palin = palin // 10
     return Reverse
-arr = array('i',[])
-# Displaying Prime Numbers
-print("Prime numbers between 1 to 1000 are:")
-for num in range(1, 1001):
-   if num > 1:
-       for i in range(2,num):
-           if (num % i) == 0:
-               break
-       else:
-           arr.append(num)      # Adding Prime Numbers to an Array
+if __name__ == "__main__":
+    arr = array('i',[])
+    # Displaying Prime Numbers
+    print("Prime numbers between 1 to 1000 are:")
+    for num in range(1, 1001):
+        if num > 1:
+            for i in range(2,num):
+                if (num % i) == 0:
+                    break
+            else:
+                arr.append(num)      # Adding Prime Numbers to an Array
 for i in range(len(arr)):
     print(arr[i],end=" ")
 print("\nPalindrome Prime Numbers are:")

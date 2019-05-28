@@ -1,4 +1,4 @@
-from com.Bridgelabz.Algorithm.Insertionsort import insertionSort
+from Bridgelabz.pythonprograms.Algorithm.Insertionsort import insertionSort
 import unittest
 
 

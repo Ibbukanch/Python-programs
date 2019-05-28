@@ -17,16 +17,18 @@ def binarysearch(lists,word):
             ub=middle-1
     return 0
 
-#Open the file
+if __name__ == "__main__":
 
-with open('/home/user/Desktop/data') as f:
-   lists = f.read().split()
+    #Open the file
 
-# Taking input from user to search word in list
+    with open('/home/user/Desktop/data') as f:
+        lists = f.read().split()
 
-word=input("Enter the word you want to search\n")
-z=binarysearch(lists,word)
-if z==1:
-    print("WORD FOUND")
-else:
-    print("WORD NOT FOUND")
+    # Taking input from user to search word in list
+
+    word=input("Enter the word you want to search\n")
+    z=binarysearch(lists,word)
+    if z==1:
+        print("WORD FOUND")
+    else:
+        print("WORD NOT FOUND")

@@ -1,4 +1,4 @@
-from com.Bridgelabz.Algorithm.Anagram import Anagram
+from Bridgelabz.pythonprograms.Algorithm.Anagram import Anagram
 import unittest
 
 

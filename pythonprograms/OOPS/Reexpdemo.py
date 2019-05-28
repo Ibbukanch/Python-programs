@@ -36,4 +36,3 @@ string = re.sub("01/01/2016", dateformat, string)  # Replacing the string 01/01/
 print(string)
 
 
-

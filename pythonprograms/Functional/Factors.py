@@ -20,5 +20,8 @@ def factors(n):
         print(n)
     return list
 
-n=int(input("Enter the Number"))
-factors(n)
+if __name__ == "__main__":
+    # Taking input from user
+    n=int(input("Enter the Number"))
+    # Calling the Function
+    factors(n)

@@ -22,5 +22,13 @@
       "balance": "100000"
     },
     "Customer Name": "BOSS"
+  },
+  {
+    "data": {
+      "no.of share": "1",
+      "price": "1",
+      "balance": "1"
+    },
+    "Customer Name": "1"
   }
 ]

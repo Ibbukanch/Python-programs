@@ -17,8 +17,10 @@ def decToBinary(n):
     for j in range(i - 1, -1, -1):
         print(binaryNum[j], end="")
 
-n = int(input("Enter the Number\n"))
+if __name__ == "__main__":
+    # Take input from the user
 
-decToBinary(n)
+    n = int(input("Enter the Number\n"))
+    decToBinary(n)
 
 

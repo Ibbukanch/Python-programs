@@ -16,12 +16,19 @@ def insertionSort(arr):
         arr[j + 1] = key
     return arr
 
-list=[]
-n=int(input("Enter the no of strings\n"))
-print("Enter the Strings")
-for i in range(n):
-    list.append(input())
-insertionSort(list)
-print("Sorted array is:")
-for i in range(len(list)):
-    print(list[i])
+# MAIN METHOD
+
+if __name__ == "__main__":
+    # Creating the Empty List
+
+    list=[]
+    # Taking input from user
+    n=int(input("Enter the no of strings\n"))
+    print("Enter the Strings")
+    for i in range(n):
+        list.append(input())  # Appending strings to the list
+    insertionSort(list)       # calling Sort function
+    print("Sorted array is:")
+    # Display the sorted list
+    for i in range(len(list)):
+        print(list[i])

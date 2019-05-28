@@ -55,15 +55,15 @@ def mergeSort(arr, l, r):
         mergeSort(arr, m + 1, r)
         merge(arr, l, m, r)
 
+if __name__ == "__main__":
+    arr = [12, 11, 13, 5, 6, 7]
+    n = len(arr)
+    print("Given array is")
+    for i in range(n):
+        print("%d" % arr[i]),
 
-arr = [12, 11, 13, 5, 6, 7]
-n = len(arr)
-print("Given array is")
-for i in range(n):
-    print("%d" % arr[i]),
-
-mergeSort(arr, 0, n - 1)
-print("\n\nSorted array is")
-for i in range(n):
-    print("%d" % arr[i]),
+    mergeSort(arr, 0, n - 1)
+    print("\n\nSorted array is")
+    for i in range(n):
+        print("%d" % arr[i]),
 

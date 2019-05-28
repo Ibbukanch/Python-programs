@@ -1,4 +1,4 @@
-from com.Bridgelabz.Algorithm.bubblesort import bubbleSort
+from Bridgelabz.pythonprograms.Algorithm.bubblesort import bubbleSort
 import unittest
 
 

@@ -4,7 +4,7 @@ username=input("Enter the Username\n")
 while len(username)<=2:
     print("Username should contain minimum 3 characters")
     username=input("Enter the Username\n")
- # Printing the username
+# Printing the username
 print("Hello "+username+",How are you?")
 
 

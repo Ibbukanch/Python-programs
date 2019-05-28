@@ -31,7 +31,7 @@ class TwoDPrimeArray:
             l = l+100
 
 
-
-ll = TwoDPrimeArray()
-primearr = primenumber()
-ll.prime2D(primearr)
+if __name__ == "__main__":
+    ll = TwoDPrimeArray()
+    primearr = primenumber()
+    ll.prime2D(primearr)
